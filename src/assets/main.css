@@ -1,0 +1,33 @@
+@import './base.css';
+
+/* Set main app custom css, Written by Danai Jantapalaboon */
+.navbar {
+    background-color: var(--bg-menu);
+    .navbar-brand img {
+        width: 120px;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+        }
+        .nav-link:hover {
+            color: #000;
+            background-color: rgb(235, 235, 235);
+            border-radius: 5%;
+            padding: 10px;
+        }
+    }
+}
+.footer-wrapper {
+    background-color: var(--bg-menu);
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: var(--bg-input-hover);
+    }
+    .icon {
+        color: #fff;
+    }
+}
