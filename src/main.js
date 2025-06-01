@@ -15,3 +15,14 @@ router.beforeEach((to, from, next) => {
 app.use(router)
 
 app.mount('#app')
+
+// login page before enter vue app
+// const isLoggedIn = localStorage.getItem('loggedIn');
+
+// if (!isLoggedIn) {
+//   window.location.href = '/login.html';
+// } else {
+//   const app = createApp(App);
+//   app.use(router);
+//   app.mount('#app');
+// }
